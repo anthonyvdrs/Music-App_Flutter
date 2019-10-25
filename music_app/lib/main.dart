@@ -151,6 +151,9 @@ class _MyHomePageState extends State<MyHomePage> {
                     }
                   }
                   ),
+                  new Slider(
+                    value: (mute) ? 0.0
+                  )
                   //new Text((mute) ? 'Mute' : '$newVol%'),
                   new IconButton(
                   icon: new Icon(Icons.add),
